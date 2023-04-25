@@ -1,0 +1,85 @@
+body {
+  margin: 0px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: buttonface;
+  box-shadow: 2px 2px 5px gray;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  margin-bottom: 20px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.menu > * {
+  padding: 5px 10px 5px 10px;
+  border-right: 1px solid gray;
+  cursor: pointer;
+}
+
+.menu > *:hover {
+  background-color: goldenrod;
+  font-weight: bold;
+  color: white;
+}
+/************************************/
+.panel {
+  border: 1px solid gray;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px;
+  margin: 20px;
+}
+
+.panel > header {
+  background-color: gainsboro;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  margin-bottom: 20px;
+  border-radius: 10px 10px 0px 0px;
+  padding: 5px;
+  text-align: center;
+  background-color: rgb(163, 135, 190);
+}
+
+.panel > div {
+  margin: 20px;
+}
+/*********************************************/
+
+.button-panel {
+  display: flex;
+  background-color: gainsboro;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: Consolas;
+  font-size: 14px;
+}
+
+.button-panel > * {
+  min-width: 80px;
+  padding: 5px;
+  margin: 3px;
+  box-shadow: 1px 1px 2px gray;
+  border-radius: 3px;
+  background-color: #bcb0d0;
+  cursor: pointer;
+  text-align: center;
+}
+
+.button-panel > *:hover {
+  background-color: goldenrod;
+  color: white;
+}
+
+.blue > * {
+  background-color: blue;
+  color: white;
+}
+
+.hidden {
+  display: none;
+}

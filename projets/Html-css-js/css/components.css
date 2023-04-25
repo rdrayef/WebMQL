@@ -1,0 +1,90 @@
+/************************** Intervention de nommage : Kebeb case : exemple-test ***********************/
+body {
+    margin : 0px;
+}
+.menu {
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap; /* les espaces entre les spans*/
+
+    background-color: buttonface;
+    box-shadow: 2px 2px 5px gray;
+    font-family: 'Segoe UI';
+    font-size: 14px;
+    margin-bottom: 20px;
+
+    margin: 5px;
+    border-radius: 5%;
+}
+
+.menu > * {
+    padding: 5px 10px 5px 10px ; /* commence du top */
+    border-right: 1px solid gray;
+    cursor: pointer;
+}
+
+.menu > *:hover {
+    background-color: goldenrod;
+    font-weight: bold; 
+    color : white ; 
+}
+
+/*************************************************/
+
+.panel {
+    border: 1px solid gray;  
+    border-radius: 10px; 
+    box-shadow:  2px 2px 10px ;
+    margin: 20px; 
+}
+
+.panel > header {
+    background-color: gainsboro;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px ;
+    margin-bottom: 20px; 
+    border-radius: 10px 10px 0px 0px;
+    padding : 5px ;
+    text-align: center;
+}
+
+.panel > div {
+    margin : 20px ;
+}
+
+
+/****************************************************/
+.button-panel {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: gainsboro;
+    font-family: Consolas;
+    font-size: 14px;
+    padding : 10px ; 
+}
+
+.button-panel > * {
+    min-width: 80px;
+    padding: 5px; 
+    margin : 3px ; 
+    box-shadow: 1px 1px 2px gray;
+    border-radius: 3px;
+    background-color: #bcb0d0;
+    cursor: pointer;
+    text-align: center;
+}
+
+.button-panel > *:hover {
+    background-color: goldenrod; 
+    color : white ; 
+}
+
+.blue > * {
+    background-color: blue;
+    color : white ; 
+}
+
+.hidden {
+    display: none;
+}

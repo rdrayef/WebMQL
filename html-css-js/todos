@@ -1,0 +1,8 @@
+1-Votre CV version HTML + CSS,avec 5 feuilles de styles
+2-Une version HTML +CSS+JS de votre cv
+3-25 CVs dans une base de données JavaScript, avec les fonctionnalitées suivantes:
+    +Affichage de tous les CVs dans une seul page
+    +Affichage défillant des CVs(next,prevoius, first et last)
+    +Recherche d'un CV par :nom,technologies, etc....
+4- Carte Visite :Digital Business Card avec (2 ou 3 styles)
+5- Une calculatrice

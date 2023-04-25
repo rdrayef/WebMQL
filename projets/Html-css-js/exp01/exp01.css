@@ -1,0 +1,23 @@
+.sum {
+    border: 1px dashed blue;
+    margin : 20px ;
+    padding: 20px;
+}
+
+.sum > * {
+    padding : 5px ; 
+}
+
+.sum > span {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    color: red;
+}
+
+.sum > *:nth-child(2) {
+    cursor: pointer;
+}
+
+.sum > *:nth-child(5) {
+    border: 1px dashed red;
+}

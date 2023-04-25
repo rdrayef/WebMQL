@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="D. Redouane">
+    <script src="js/arrays.js"></script>
+    <script src="js/functions.js"></script>
+    <script src="js/objects.js"></script>
+    <!--
+        *SPA: Single Page Application
+        ?RWD: Responsive Web Design
+        !PWA:Progressive Web Application
+            *RWD: Fluent UX (Experience Utilisateur Fluide)
+            *Notification Push(JavaScript)
+            *Service Workers (Push+ Gestion Intelligente du cache)
+            *Installation Desktop Mobile
+    -->
+    <title>HTML,CSS & JavaScript</title>
+    <style>
+        /* Feuille de styles Interne */
+    </style>
+    <link rel="stylesheet" href="css/components.css">
+    <script src="js/basics.js"></script>
+    <script>
+        function show(id) {
+            let s = document.getElementById(id);
+            if (s.style.display == 'block') {
+                s.style.display = 'none';
+            } else {
+                s.style.display = 'block';
+            }
+        }
+    </script>
+</head>
+
+<body onload="afficher('Chargement de la page')">
+    <script>
+        afficher('Debut body');
+    </script>
+    <div class="menu">
+        <!-- DIv à un Style Bloc -->
+        <span onclick="show('s01')">JavaScript-Intro</span>
+        <span>POO en JS</span>
+        <span>Possibilitées ES6</span>
+        <span>Callbacks</span>
+        <span>Promeses</span>
+        <span>Modules</span>
+    </div>
+    <section class="panel" id="s01">
+        <header>Introduction au Langage JavaScript</header>
+        <div class="button-panel blue">
+            <div onclick="exp01()">Exemple 01</div>
+            <div onclick="exp02()">Exemple 02</div>
+            <div onclick="exp03()">Exemple 03</div>
+            <div onclick="exp04()">Exemple 04</div>
+            <div onclick="exp05()">Exemple 05</div>
+            <div onclick="exp06()">Exemple 06</div>
+            <div onclick="exp07()">Exemple 07</div>
+            <div onclick="exp08()">Exemple 08</div>
+            <div onclick="exp09()">Exemple 09</div>
+            <div onclick="exp10()">Exemple 10</div>
+        </div>
+    </section>
+    <section class="panel" id="s02">
+        <header>Les Tableaux</header>
+        <div class="button-panel blue">
+            <div onclick="arrays.exp01()">Exemple 01</div>
+            <div onclick="arrays.exp02()">Exemple 02</div>
+            <div onclick="arrays.exp03()">Exemple 03</div>
+            <div onclick="arrays.exp04()">Exemple 04</div>
+            <div onclick="arrays.exp05()">Exemple 05</div>
+            <div onclick="arrays.exp06()">Exemple 06</div>
+            <div onclick="arrays.exp07()">Exemple 07</div>
+            <div onclick="arrays.exp08()">Exemple 08</div>
+            <div onclick="arrays.exp09()">Exemple 09</div>
+            <div onclick="arrays.exp10()">Exemple 10</div>
+        </div>
+    </section>
+    <section class="panel" id="s03">
+        <header>Les fonctions</header>
+        <div class="button-panel blue">
+            <div onclick="functions.exp01()">Exemple 01</div>
+            <div onclick="functions.exp02()">Exemple 02</div>
+            <div onclick="functions.exp03()">Exemple 03</div>
+            <div onclick="functions.exp04()">Exemple 04</div>
+            <div onclick="functions.exp05()">Exemple 05</div>
+            <div onclick="functions.exp06()">Exemple 06</div>
+            <div onclick="functions.exp07()">Exemple 07</div>
+            <div onclick="functions.exp08()">Exemple 08</div>
+            <div onclick="functions.exp09()">Exemple 09</div>
+            <div onclick="functions.exp10()">Exemple 10</div>
+        </div>
+    </section>
+    <section class="panel" id="s04">
+        <header>Les objets</header>
+        <div class="button-panel blue">
+            <div onclick="objects.exp01()">Exemple 01</div>
+            <div onclick="objects.exp02()">Exemple 02</div>
+            <div onclick="objects.exp03()">Exemple 03</div>
+            <div onclick="objects.exp04()">Exemple 04</div>
+            <div onclick="objects.exp05()">Exemple 05</div>
+            <div onclick="objects.exp06()">Exemple 06</div>
+            <div onclick="objects.exp07()">Exemple 07</div>
+            <div onclick="objects.exp08()">Exemple 08</div>
+            <div onclick="objects.exp09()">Exemple 09</div>
+            <div onclick="objects.exp10()">Exemple 10</div>
+        </div>
+    </section>
+
+</body>
+
+</html>

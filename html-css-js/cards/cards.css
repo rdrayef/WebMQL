@@ -1,0 +1,32 @@
+.card {
+  max-width: 300px;
+  border: 1px solid gray;
+  box-shadow: 2px 2px 5px gray;
+  padding: 10px;
+  margin: 10px;
+}
+
+.card > img {
+  width: 100%;
+}
+
+.card > header {
+  font-family: Consolas;
+  font-size: 18px;
+  padding: 10px;
+  color: navy;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.card > p {
+  text-align: justify;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 12px;
+}
+
+.cards-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

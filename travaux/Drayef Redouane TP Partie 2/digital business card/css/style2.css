@@ -1,0 +1,103 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eeeeee;
+  padding: 40px;
+  font-family: Helvetica;
+}
+
+.card {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  border: 10px solid gray;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #0f4c81;
+  color: white;
+}
+
+.image {
+  width: 250px;
+  height: 250px;
+  padding: 10px;
+}
+
+.image > img {
+  width: 100%;
+  height: 100%;
+}
+
+.infos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.infos > :first-child {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.infos > :nth-child(2) {
+  font-size: 15px;
+  font-weight: 500;
+  color: #e4e4e4;
+}
+
+.infos > :nth-child(3) {
+  font-size: 16px;
+  font-weight: 500;
+  color: #e4e4e4;
+}
+
+.contacts {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.contacts > div {
+  margin: 0 10px;
+  padding: 10px;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 80px;
+  text-align: center;
+}
+
+.contacts > :first-child {
+  background-color: buttonface;
+}
+
+.contacts > :nth-child(2) {
+  background-color: #4987e1;
+  color: white;
+  font-weight: 500;
+}
+
+.about,
+.interests {
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.about > span,
+.interests span {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.about p,
+.interests p {
+  font-size: 14px;
+  line-height: 1.2;
+  color: #cfcece;
+  text-align: justify;
+}
